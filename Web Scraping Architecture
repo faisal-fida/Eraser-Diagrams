@@ -1,0 +1,29 @@
+title Part 1: Web Scraping Architecture
+
+direction right
+
+Web Scraping [color: green] {
+  Python
+  BeautifulSoup4
+  Requests
+  Proxy Management
+  Distributed Processing
+}
+Extras [color: green] {
+  Proxy List
+  Retry Mechanism
+}
+Local Storage [color: orange] {
+  CSV File
+}
+
+Extract Data [shape: oval, color: green]
+Data Available? [shape: diamond, color: green]
+ThredUp [color: green]
+Smartproxy [color: green]
+
+Extract Data > Data Available?
+Data Available? > ThredUp: Yes
+Data Available? > Extras: No
+Extras > Smartproxy > Local Storage
+ThredUp > Local Storage
