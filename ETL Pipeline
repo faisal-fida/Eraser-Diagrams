@@ -1,0 +1,35 @@
+
+
+"Algolia API" [color: purple] {
+  Indexing
+  Search
+}
+
+"Google Cloud Firestore SDK" [color: orange] {
+  "Data Storage"
+  "Real-time Updates"
+}
+
+"Algolia Flutter SDK" [color: teal] {
+  "Integration with Flutter App"
+}
+
+"Google Cloud Run and Kubernetes" [color: yellow] {
+  Deployment
+  Orchestration
+}
+"Transform Data" [shape: oval, color: green]
+"Store CSV" [shape: oval, color: blue]
+
+Index Data [shape: oval, color: purple]
+Analyze Data [shape: oval, color: purple]
+Upload Firestore [shape: oval, color: orange]
+Process Data Pipelines [shape: oval, color: orange]
+Integrate Flutter [shape: oval, color: yellow]
+
+Store CSV > Transform Data
+Transform Data > Index Data
+Transform Data > Upload Firestore
+Transform Data > Process Data Pipelines
+Index Data > Analyze Data
+Store CSV > Integrate Flutter
