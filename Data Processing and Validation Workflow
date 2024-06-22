@@ -1,0 +1,30 @@
+title Part 2: Data Processing and Validation Workflow
+
+direction right
+
+"Data Preprocessing" [color: blue] {
+  Pandas
+  NumPy
+  "Regular Expressions"
+}
+Data Validation and Quality Check [color: red] {
+  Data Validation
+  Quality Check
+}
+Local Storage [color: orange] {
+  CSV File
+}
+
+Read JSON [shape: oval, color: blue]
+Clean Data [shape: oval, color: blue]
+Filter Valid Data [shape: oval, color: red]
+Store CSV [shape: oval, color: blue]
+Perform Quality Check [shape: oval, color: red]
+
+Read JSON > Clean Data
+Clean Data > Filter Valid Data
+Filter Valid Data > Perform Quality Check
+Perform Quality Check > Store CSV
+Store CSV > Local Storage
+Perform Quality Check > Data Validation and Quality Check
+Validation: Validation Needed
